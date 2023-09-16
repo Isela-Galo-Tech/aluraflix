@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #010206;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 2rem;
+    padding: 2rem;
+    cursor: pointer ;
+}
+
+.header__btn{
+    text-align: center;
+    padding: 1rem 1rem;
+    border-color: #ffffff;
+    background: none;
+    color: #ffffff;
+    margin: 1.5rem  0 1rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header__btn:hover{
+    background: #333;
+    transition: .3s;
+}
+
+
+/* Estilos de la cabecera */
+.cabecera {
+    padding: 20px;
+    display: flex;
+}
+
+.cabecera__imagen__fondo {
+    width: 100vw;
+    box-sizing: 0 2px 10px 5px #00000020;
+    z-index: -1;
+}
+
+.imagen-destacada {
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen-destacada img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de las secciones */
+.seccion {
+    padding: 20px;
+    border: 2px solid #333;0
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del carrusel (puedes utilizar una librería como Slick Carousel para implementar el carrusel) */
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
